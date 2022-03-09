@@ -96,7 +96,7 @@ public class School_Management_System
 		System.out.println("8. Update Teacher Details ");
 		do 
 		{
-			System.out.println("\n Enter Your Choice : \n ");
+			System.out.println("\n Enter Your Choice :  ");
 			int ch = sc.nextInt();
 			switch (ch) 
 			{
@@ -253,8 +253,8 @@ public class School_Management_System
 
 			    case 8:
 							s4 = new TeacherDetail();
-							System.out.println("********************Update Student Details********************");
-							System.out.println("Enter Student Id to Update Student Details");
+							System.out.println("********************Update Teacher Details********************");
+							System.out.println("Enter Teacher Id to Update Teacher Details");
 							int updt1 = sc.nextInt();
 			
 							for (int i = 0; i < arr1.size(); i++) {

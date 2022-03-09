@@ -12,44 +12,57 @@ public class TeacherDetail
 	
 	
 	
-	public int getTid() {
+	public int getTid()
+	{
 		return tid;
 	}
-	public void setTid(int tid) {
+	public void setTid(int tid) 
+	{
 		this.tid = tid;
 	}
-	public String getTname() {
+	public String getTname()
+	{
 		return tname;
 	}
-	public void setTname(String tname) {
+	public void setTname(String tname) 
+	{
 		this.tname = tname;
 	}
-	public String getTmno() {
+	public String getTmno() 
+	{
 		return tmno;
 	}
-	public void setTmno(String tmno) {
+	public void setTmno(String tmno) 
+	{
 		this.tmno = tmno;
 	}
-	public String getTmail() {
+	public String getTmail()
+	{
 		return tmail;
 	}
-	public void setTmail(String tmail) {
+	public void setTmail(String tmail)
+	{
 		this.tmail = tmail;
 	}
-	public String getTaddress() {
+	public String getTaddress()
+	{
 		return taddress;
 	}
-	public void setTaddress(String taddress) {
+	public void setTaddress(String taddress)
+	{
 		this.taddress = taddress;
 	}
-	public String getSalary() {
+	public String getSalary()
+	{
 		return salary;
 	}
-	public void setSalary(String salary) {
+	public void setSalary(String salary) 
+	{
 		this.salary = salary;
 	}
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		return   "tid=" + tid + "			tname=" + tname + "		taddress=" + taddress+ "		tmno=" + tmno + "		tmail=" + tmail + "		salary=" + salary ;
 	}
 	

@@ -1,4 +1,4 @@
-package Core_Java_Project;
+package School_Management_System;
 
 public class TeacherDetail 
 {

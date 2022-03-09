@@ -1,4 +1,4 @@
-package Core_Java_Project;
+package School_Management_System;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;

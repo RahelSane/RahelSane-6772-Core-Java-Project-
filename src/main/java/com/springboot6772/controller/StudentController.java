@@ -18,6 +18,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -67,6 +68,8 @@ public class StudentController
 		{
 				return "welcome";
 		}
+		
+	
 		
 		@PostMapping("/registerStudent")
 		public String register(@Valid @ModelAttribute Student student,BindingResult result, @RequestParam(value = "agreement", defaultValue = "false") boolean agreement,Model model, HttpSession session,@RequestParam("studentUploadImage")MultipartFile file)throws IOException

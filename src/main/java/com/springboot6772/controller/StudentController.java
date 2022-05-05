@@ -72,7 +72,9 @@ public class StudentController
 	
 		
 		@PostMapping("/registerStudent")
-		public String register(@Valid @ModelAttribute Student student,BindingResult result, @RequestParam(value = "agreement", defaultValue = "false") boolean agreement,Model model, HttpSession session,@RequestParam("studentUploadImage")MultipartFile file)throws IOException
+		public String register(@Valid @ModelAttribute Student student,BindingResult result, 
+				@RequestParam(value = "agreement", defaultValue = "false") boolean agreement,Model model,
+				HttpSession session,@RequestParam("studentUploadImage")MultipartFile file)throws IOException
 		{
 			System.out.println(agreement);
 				try
